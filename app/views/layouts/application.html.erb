@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DJ GreyBeard</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_importmap_tags %>
+  </head>
+
+  <body>
+    <%= yield %>
+    <footer>
+    <hr>
+    <p>
+    <%= link_to "Home", home_path %> | 
+    <%= link_to "About DJ GreyBeard", about_path %> | 
+    <%= link_to "Get Merch", merch_path %> |  
+    <%= link_to "See DJ GreyBeard Perform!", show_path %>
+
+
+
+    <!-- per https://www.rubyguides.com/2019/05/rails-link_to-method/ -->
+    <!-- Look at https://rollbar.com/blog/top-10-errors-from-1000-ruby-on-rails-projects-and-how-to-avoid-them/ -->
+    </p>
+    </footer>
+  </body>
+</html>
