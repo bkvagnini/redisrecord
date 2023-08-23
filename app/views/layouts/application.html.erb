@@ -14,17 +14,10 @@
     <%= yield %>
     <footer>
     <hr>
-    <p>
-    <%= link_to "Home", home_path %> | 
-    <%= link_to "About DJ GreyBeard", about_path %> | 
-    <%= link_to "Get Merch", merch_path %> |  
-    <%= link_to "See DJ GreyBeard Perform!", show_path %>
-
-
-
-    <!-- per https://www.rubyguides.com/2019/05/rails-link_to-method/ -->
-    <!-- Look at https://rollbar.com/blog/top-10-errors-from-1000-ruby-on-rails-projects-and-how-to-avoid-them/ -->
-    </p>
+    <p><a href ="static/home" > Home </a> | <a href ="static/about" > About DJ GreyBeard </a> |
+    <a href ="merch" > Get Merch</a> | <a href ="show" > See DJ GreyBeard Perform! </a> |
+    <a href ="contact" > Contact the team </a> </p>
+<p>&copy; 2023 <a href = "http://backbeat.agency">Backbeat Agency</a> </p>
     </footer>
   </body>
 </html>
