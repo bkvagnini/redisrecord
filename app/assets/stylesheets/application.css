@@ -13,3 +13,38 @@
  *= require_tree .
  *= require_self
  */
+body {
+  background-color: lightslategrey;;
+  color: lightgrey;
+ }
+h1 {
+  color: lightgrey;
+}
+
+a {
+  color: lightgrey;
+}
+
+img {
+  border-radius: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+main {
+  margin: auto;
+  width: 75%;
+  padding: 10px;
+}
+footer {
+  margin: auto;
+  width: 75%;
+  padding: 10px;
+  }
+}
+
+.hero {
+    width: 100%;
+}
