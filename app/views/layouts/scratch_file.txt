@@ -1,0 +1,3 @@
+<p><a href ="static/home" > Home </a> &nbsp;&nbsp; &nbsp;&nbsp; <a href ="static/about" > About DJ RedIsRecord </a> &nbsp;&nbsp; &nbsp;&nbsp;
+<a href ="merch" > Get Merch</a> &nbsp;&nbsp; &nbsp;&nbsp;<a href ="show" > See DJ RedIsRecord Perform! </a> &nbsp;&nbsp; &nbsp;&nbsp;
+<a href ="contact" > Contact the team </a> </p>

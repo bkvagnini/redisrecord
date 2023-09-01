@@ -16,7 +16,9 @@
     </main>
     <footer>
     <hr>
-    <p><a href ="static/home" > Home </a> &nbsp;&nbsp; &nbsp;&nbsp; <a href ="static/about" > About DJ RedIsRecord </a> &nbsp;&nbsp; &nbsp;&nbsp;
+    <p>
+      <%= image_tag "redisrecord_logo_tiny.png", style: 'height:50%;width:auto;', alt: "small RedIsRecord Logo" %>
+      <%= link_to "Home", @home %> &nbsp;&nbsp; &nbsp;&nbsp; <%= link_to "About DJ RedIsRecord", @about %>  &nbsp;&nbsp; &nbsp;&nbsp;
     <a href ="merch" > Get Merch</a> &nbsp;&nbsp; &nbsp;&nbsp;<a href ="show" > See DJ RedIsRecord Perform! </a> &nbsp;&nbsp; &nbsp;&nbsp;
     <a href ="contact" > Contact the team </a> </p>
 <p>&copy; 2023 <a href = "http://backbeat.agency">Backbeat Agency</a> </p>
