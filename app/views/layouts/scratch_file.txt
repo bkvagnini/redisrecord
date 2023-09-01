@@ -1,3 +1,7 @@
 <p><a href ="static/home" > Home </a> &nbsp;&nbsp; &nbsp;&nbsp; <a href ="static/about" > About DJ RedIsRecord </a> &nbsp;&nbsp; &nbsp;&nbsp;
 <a href ="merch" > Get Merch</a> &nbsp;&nbsp; &nbsp;&nbsp;<a href ="show" > See DJ RedIsRecord Perform! </a> &nbsp;&nbsp; &nbsp;&nbsp;
 <a href ="contact" > Contact the team </a> </p>
+
+
+--Creates a link from an image
+<%= link_to image_tag("redisrecord_logo_tiny.png", style: 'height:50%;width:auto;', alt: "small RedIsRecord Logo"), @home %>
