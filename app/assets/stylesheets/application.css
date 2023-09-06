@@ -48,3 +48,23 @@ footer {
 .hero {
     width: 100%;
 }
+
+.nav-link {
+  color: #f5abab;
+}
+
+.nav-link:hover {
+  color: #fff;
+}
+
+.nav-link active {
+  color: #f5abab;
+}
+
+.nav-link active [aria-current] {
+    color: #f5abab;
+  }
+
+.red_button {
+  color: red;
+}

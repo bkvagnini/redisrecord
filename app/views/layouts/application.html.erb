@@ -6,11 +6,13 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 
   </head>
 
@@ -20,11 +22,8 @@
     </main>
     <footer>
     <hr>
-     <%= render partial: "shared/navbar" %>
-    <p>
-      <%= link_to image_tag("redisrecord_logo_tiny.png", style: 'height:50%;width:auto;', alt: "small RedIsRecord Logo") + "Home",@home %> &nbsp;&nbsp; &nbsp;&nbsp; <%= link_to "About DJ RedIsRecord", @about %>  &nbsp;&nbsp; &nbsp;&nbsp;
-    <a href ="merch" > Get Merch</a> &nbsp;&nbsp; &nbsp;&nbsp;<a href ="show" > See DJ RedIsRecord Perform! </a> &nbsp;&nbsp; &nbsp;&nbsp;
-    <a href ="contact" > Contact the team </a> </p>
+     <%= image_tag("redisrecord_logo_tiny.png", style: 'height:50%;width:auto;', alt: "small RedIsRecord Logo")%> <%= render partial: "shared/navbar" %>
+
 <p>&copy; 2023 <a href = "http://backbeat.agency">Backbeat Agency</a> </p>
     </footer>
   </body>
