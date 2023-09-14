@@ -6,6 +6,9 @@ Rails.application.routes.draw do
   #get 'static/home'
   #root "static#home"
 
-  get "about", to: "about#index"
+  get "about", to: "about#index", as: :about
+  get "merch", to: "merch#index", as: :merch
+  get "shows", to: "shows#index", as: :shows
+  get "contact", to: "contact#index", as: :contact
   root to: "main#index"
 end

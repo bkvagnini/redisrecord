@@ -1,17 +1,17 @@
 class MainController < ApplicationController
 #class StaticController < ApplicationController
-#  def about
-#  end
+  #def about
+  #end
 
   def index
   end
 
-#  def merch
-#  end
+  #def merch
+  #end
 
-#  def show
-#  end
+  #def shows
+  #end
 
-#  def contact
-#  end
+  #def contact
+  #end
 end
